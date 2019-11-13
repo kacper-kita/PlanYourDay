@@ -1,5 +1,5 @@
 //
-//  TabBarViewController.swift
+//  ViewController.swift
 //  PlanYourDay
 //
 //  Created by Kacper Kita on 11/11/2019.
@@ -8,17 +8,13 @@
 
 import UIKit
 
-class TabBarViewController: UITabBarController {
+class ViewController: UIViewController {
 
-    var customTabBarItem = UITabBarItem()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+        // Do any additional setup after loading the view.
     }
-    
 
-  
 
 }
+
