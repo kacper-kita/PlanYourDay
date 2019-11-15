@@ -17,6 +17,7 @@
 		3637FEDD2379AE8B00C740D9 /* PlanYourDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637FEDC2379AE8B00C740D9 /* PlanYourDayTests.swift */; };
 		3637FEE82379AE8B00C740D9 /* PlanYourDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637FEE72379AE8B00C740D9 /* PlanYourDayUITests.swift */; };
 		3637FEFC2379D51800C740D9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637FEFB2379D51800C740D9 /* TabBarViewController.swift */; };
+		366F57DF237F33C400412FA5 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F57DE237F33C400412FA5 /* TodayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3637FEE72379AE8B00C740D9 /* PlanYourDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanYourDayUITests.swift; sourceTree = "<group>"; };
 		3637FEE92379AE8B00C740D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3637FEFB2379D51800C740D9 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		366F57DE237F33C400412FA5 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +108,13 @@
 				3637FEC22379AE8800C740D9 /* AppDelegate.swift */,
 				3637FEC42379AE8800C740D9 /* SceneDelegate.swift */,
 				3637FEC62379AE8800C740D9 /* ViewController.swift */,
+				3637FEFB2379D51800C740D9 /* TabBarViewController.swift */,
+				366F57DE237F33C400412FA5 /* TodayViewController.swift */,
 				3637FEC82379AE8800C740D9 /* Main.storyboard */,
 				3637FECE2379AE8A00C740D9 /* Assets.xcassets */,
 				3637FED02379AE8A00C740D9 /* LaunchScreen.storyboard */,
 				3637FED32379AE8A00C740D9 /* Info.plist */,
 				3637FECB2379AE8800C740D9 /* PlanYourDay.xcdatamodeld */,
-				3637FEFB2379D51800C740D9 /* TabBarViewController.swift */,
 			);
 			path = PlanYourDay;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				3637FECD2379AE8800C740D9 /* PlanYourDay.xcdatamodeld in Sources */,
 				3637FEC72379AE8800C740D9 /* ViewController.swift in Sources */,
+				366F57DF237F33C400412FA5 /* TodayViewController.swift in Sources */,
 				3637FEC32379AE8800C740D9 /* AppDelegate.swift in Sources */,
 				3637FEFC2379D51800C740D9 /* TabBarViewController.swift in Sources */,
 				3637FEC52379AE8800C740D9 /* SceneDelegate.swift in Sources */,
